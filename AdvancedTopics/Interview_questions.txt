@@ -1,0 +1,13 @@
+﻿1.what is an attribute?
+An attribute is a declarative tag that is used to convey information to runtime about the behaviors of various elements like classes, methods, structures, enumerators, assemblies etc. in your program.
+Attributes are metadata extensions that give additional information to the compiler about the elements in the program code at runtime.
+2. Explain about c# attributes?
+The .Net Framework provides two types of attributes: the pre-defined attributes and custom built attributes.
+The .Net Framework provides three pre-defined attributes –
+1.Attribute usage--The AttributeUsage attribute determines how a custom attribute class can be used.
+ 2.Coditional--------The Conditional attribute makes the execution of a method dependent on a preprocessing identifier
+ 3.Obselete------The Obsolete attribute marks a code element as no longer recommended for use.
+ 3.What is Reflection?
+The process of obtaining information about assemblies and the types defined within them, and creating, invoking, and accessing type instances at run time.
+
+
