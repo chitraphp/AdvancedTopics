@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedTopics", "AdvancedTopics\AdvancedTopics.csproj", "{333C046D-8971-4C6C-867C-CCF427E12352}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvancedTopics", "AdvancedTopics\AdvancedTopics.csproj", "{333C046D-8971-4C6C-867C-CCF427E12352}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IndexersDemo", "IndexersDemo\IndexersDemo.csproj", "{92AE1CF9-6637-4259-9DDB-BA68E69A1CDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PredFuncActionDelegates", "PredFuncActionDelegates\PredFuncActionDelegates.csproj", "{BDC65B77-72F3-4B5F-B313-6567D38E1E0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{333C046D-8971-4C6C-867C-CCF427E12352}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{333C046D-8971-4C6C-867C-CCF427E12352}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{333C046D-8971-4C6C-867C-CCF427E12352}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92AE1CF9-6637-4259-9DDB-BA68E69A1CDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92AE1CF9-6637-4259-9DDB-BA68E69A1CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92AE1CF9-6637-4259-9DDB-BA68E69A1CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92AE1CF9-6637-4259-9DDB-BA68E69A1CDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDC65B77-72F3-4B5F-B313-6567D38E1E0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDC65B77-72F3-4B5F-B313-6567D38E1E0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDC65B77-72F3-4B5F-B313-6567D38E1E0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDC65B77-72F3-4B5F-B313-6567D38E1E0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

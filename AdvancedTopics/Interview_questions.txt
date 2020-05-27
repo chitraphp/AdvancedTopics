@@ -1,13 +1,36 @@
 ﻿1.what is an attribute?
 An attribute is a declarative tag that is used to convey information to runtime about the behaviors of various elements like classes, methods, structures, enumerators, assemblies etc. in your program.
 Attributes are metadata extensions that give additional information to the compiler about the elements in the program code at runtime.
+
 2. Explain about c# attributes?
 The .Net Framework provides two types of attributes: the pre-defined attributes and custom built attributes.
 The .Net Framework provides three pre-defined attributes –
 1.Attribute usage--The AttributeUsage attribute determines how a custom attribute class can be used.
  2.Coditional--------The Conditional attribute makes the execution of a method dependent on a preprocessing identifier
+   [Conditional("DEBUG")].  it displays the values of the variables while debugging a code
  3.Obselete------The Obsolete attribute marks a code element as no longer recommended for use.
  3.What is Reflection?
 The process of obtaining information about assemblies and the types defined within them, and creating, invoking, and accessing type instances at run time.
 
+#3.The methods:
+   
+   Type type = user.GetType();
+   PropertyInfo[] props = type.GetProperties();
+   prop.Name, prop.GetValue(user), prop.PropertyType.Name
+
+#4. Reflection advantages:
+    .Reflection is useful to get the type information that describes assemblies, modules members,parameters and other entities in the managed code by examining their metadata.
+    .By reflection, we can create type instances dynamically at runtime, bind or get the type from an existing object and invoke its methods or access its fields and properties.
+    .It provides access to perform late binding and get methods type information created at runtime.
+
+#5. Uses for Reflection C#
+    There are several uses including:
+
+    Use Module to get all global and non-global methods defined in the module.
+    Use MethodInfo to look at information such as parameters, name, return type, access modifiers and implementation details.
+    Use EventInfo to find out the event-handler data type, the name, declaring type and custom attributes.
+    Use ConstructorInfo to get data on the parameters, access modifiers, and implementation details of a constructor.
+    Use Assembly to load modules listed in the assembly manifest.
+    Use PropertyInfo to get the declaring type, reflected type, data type, name and writable status of a property or to get and set property values.
+    Use CustomAttributeData to find out information on custom attributes or to review attributes without having to create more instances.
 
